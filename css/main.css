@@ -205,7 +205,7 @@
 @media (max-width: 991.98px) {
     .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
         padding-right: 15px;
-        padding-left: 15px;
+        padding-left: 5px;
     }
 
     .navbar {
@@ -243,11 +243,18 @@
        text-align: center;
        margin-left: auto;
        margin-right: auto;
-       padding-left: 30px;
-    }
+       overflow:scroll;
+       column-count: auto;
+       justify-content: center;
+     }
 
     .dropdown-toggle::after {
         content: none;
+    }
+
+    
+    .dropdown__list-item{
+        width: auto!important;
     }
 }
 
